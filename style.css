@@ -1,0 +1,40 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+    height: 100vh;
+    font-size: 16px;
+    display: grid;
+    place-items: center;
+    background-color: lightgray;
+}
+
+main {
+    display: grid;
+    gap: 3rem;
+}
+
+.MP-Overview {
+    display: flex;
+    gap: 1rem;
+    background-color: white;
+}
+
+img[src=""] {
+    display: none;
+}
