@@ -9,24 +9,31 @@
 <body>
 
     <main>
-        <div>
-            <p>Find Current MPs by name</p>
-            <input type="text">
-            <button class="submit-btn" type="submit">Search</button>
-        </div>
-
-        <div class="MP-Overview">
-            <img class=MP-photo src="" alt="MP Photo">
+        <h1 class="title">Find Members of Parliment</h1>
+        <div class="search-container">
+            <p>Search current members by name</p>
             <div>
-                <p class="MP-name"></p>
-                <p class="MP-party"></p>
-                <p class="MP-constituency"></p>
-                <p class="MP-roles"></p>
+                <input type="text">
+                <button class="submit-btn" type="submit">Search</button>
             </div>
         </div>
 
-        <div>
+        <div class="MP-Overview hidden">
+            <img class=MP-photo src="" alt="MP Photo">
+            <div>
+                <p class="MP-name"></p>
 
+                <p class="label">Political Affiliation</p>
+                <p class="MP-party"></p>
+
+                <p class="label">Constituency</p>
+                <p class="MP-constituency"></p>
+            </div>
+        </div>
+
+        <h2 class="subheading">Current Members</h2>
+        <div class="btn-container">
+            <button class="show-all-btn">Show All Current Members</button>
         </div>
 
     </main>
