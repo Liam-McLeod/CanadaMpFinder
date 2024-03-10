@@ -1,10 +1,6 @@
 let submitBtn = document.querySelector(".submit-btn");
 let searchBar = document.querySelector('input');
-
-submitBtn.addEventListener("click", e => {
-    var name = searchBar.value;
-    getData(name);
-})
+let ShowAllBtn = document.querySelector('.show-all-btn');
 
 async function getData(name) {
 
@@ -26,4 +22,15 @@ async function getData(name) {
         /* Keep MP Overview Hidden */
         document.querySelector(".MP-Overview").classList.add("hidden")
     }
-}   
+}
+
+/* Show Particular MP by name */
+submitBtn.addEventListener("click", e => {
+    var name = searchBar.value;
+    getData(name);
+})
+
+/* Show all current MPs */
+ShowAllBtn.addEventListener("click", e => {
+    window.location.href = '/html/MPList.html'
+})
