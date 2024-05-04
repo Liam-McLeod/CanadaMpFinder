@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+    height: 100vh;
+    font-size: 16px;
+    display: grid;
+    place-items: center;
+    background-color: rgb(242,242,242)
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 3rem;
+}
+
+.MP-Overview {
+    display: flex;
+    background-color: white;
+}
+.MP-Overview > div {
+    padding: 1rem;
+  }
+
+.MP-name {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
