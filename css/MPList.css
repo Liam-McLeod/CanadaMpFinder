@@ -24,10 +24,36 @@ body {
 }
 
 main {
+    margin: 10rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
-    margin: 3rem;
+    gap: 2rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.search-refine {
+  background-color: white;
+  display: flex;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+
+label {
+  display: block;
+}
+
+.MP-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
 }
 
 .MP-Overview {

@@ -8,7 +8,52 @@
 </head>
 <body>
     <main>
-        
+        <h1>Current Members of parliment</h1>
+        <h3>Refine your search </h3>
+        <div class="search-refine">
+            <div>
+                <label for="party">Political Affiliation</label>
+                <select name="party" id="party">
+                    <option>All</option>
+                    <option>Bloc Québécois</option>
+                    <option>Conservative</option>
+                    <option>Green Party</option>
+                    <option>Independent</option>
+                    <option>Liberal</option>
+                    <option>NDP</option>
+                </select>
+            </div>
+            <div>
+                <label for="province">Province/Territory</label>
+                <select name="province" id="province">
+                    <option>All</option>
+                    <option>Alberta</option>
+                    <option>British Columbia</option>
+                    <option>Manitoba</option>
+                    <option>New Brunswick</option>
+                    <option>Newfoundland And Labrador</option>
+                    <option>Northwest Territories</option>
+                    <option>Nova Scotia</option>
+                    <option>Nunavut</option>
+                    <option>Ontario</option>
+                    <option>Prince Edward Island</option>
+                    <option>Quebec</option>
+                    <option>Saskatchewan</option>
+                    <option>Yukon</option>
+                </select>
+            </div>
+            <div>
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                    <option>All</option>
+                    <option>Female</option>
+                    <option>Male</option>
+                </select>
+            </div>
+            <button>Clear</button>
+        </div>
+            
+        <div class="MP-grid"></div>
     </main>
     <script src="/js/MPList.js"></script>
 </body>

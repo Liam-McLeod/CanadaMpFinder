@@ -6,7 +6,7 @@ async function getAllMPs() {
     json = await res.json();
     
     json.objects.forEach(element => {
-        document.querySelector('main').innerHTML += `
+        document.querySelector('.MP-grid').innerHTML += `
         <div class=MP-Overview>
             <img src="${element.photo_url}" alt="MP Photo">
             <div>
