@@ -38,16 +38,36 @@ h1 {
 h3 {
   text-transform: uppercase;
   font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 .search-refine {
   background-color: white;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 0.5rem;
   gap: 1rem;
+  border: 1px solid #ccc;
 }
 
 label {
   display: block;
+  color: rgb(51, 51, 51);
+  font-size:0.9rem;
+}
+
+select {
+  width: 100%;
+  padding: 0.2rem;
+  background-color: rgb(250,250,250);
+  color: rgb(67,122,38);
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: rgb(67,122,38);
+  color: white;
+  border: none;
+  padding: 0.5rem;
 }
 
 .MP-grid {
@@ -67,6 +87,7 @@ label {
 .MP-name {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
+    font-weight: bold;
   }
   
   .label {
