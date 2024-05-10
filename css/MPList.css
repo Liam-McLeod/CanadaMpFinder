@@ -63,11 +63,31 @@ select {
   border: 1px solid #ccc;
 }
 
+select:hover {
+  background-color: rgb(67,122,38);
+  color: white;
+}
+
+select:focus {
+  outline:none;
+  background-color: rgb(67,122,38);
+  color: white;
+}
+
+option {
+  color: black;
+  background-color: white;
+}
+
 button {
   background-color: rgb(67,122,38);
   color: white;
   border: none;
   padding: 0.5rem;
+}
+
+button:hover {
+  background-color: rgb(46,83,26);
 }
 
 .MP-grid {
@@ -82,14 +102,11 @@ button {
 }
 .MP-Overview > div {
     padding: 1rem;
-  }
-
+}
+  
 .MP-name {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 0.5rem;
     font-weight: bold;
   }
   
-  .label {
-    font-weight: bold;
-  }

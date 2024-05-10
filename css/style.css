@@ -70,6 +70,11 @@ button {
   padding: 0.4rem;
 }
 
+button:hover {
+  background-color: rgb(46,83,26);
+  text-decoration: underline;
+}
+
 .MP-Overview {
     display: flex;
     background-color: white;
