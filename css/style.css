@@ -21,7 +21,8 @@ body {
     font-size: 16px;
     display: grid;
     place-items: center;
-    background-color: rgb(242,242,242)
+    background-color: rgb(242,242,242);
+    font-family: "Roboto", sans-serif;
 }
 
 main {
@@ -94,6 +95,7 @@ button:hover {
 
 .label {
   font-weight: bold;
+  margin-top: 1rem;
 }
 
 img[src=""] {
